@@ -12,8 +12,8 @@ jar{
 }
 
 bootJar{
-//	archiveFileName = "${project.name}.jar"
-	archiveFileName = "${project.name}-${version}.jar"
+	archiveFileName = "${project.name}.jar"
+//	archiveFileName = "${project.name}-${version}.jar"
 	exclude '**/ssh/*'
 }
 
