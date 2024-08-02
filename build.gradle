@@ -10,9 +10,10 @@ version = '0.0.1'
 jar{
 	enabled = false
 }
+
 bootJar{
-//	archiveFileName = "${project.name}.jar"
-	archiveFileName = "${project.name}-${version}.jar"
+	archiveFileName = "${project.name}.jar"
+//	archiveFileName = "${project.name}-${version}.jar"
 	exclude '**/ssh/*'
 }
 
