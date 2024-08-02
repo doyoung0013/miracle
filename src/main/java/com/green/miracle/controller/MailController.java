@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.green.miracle.security.CustomUserDetails;
 import com.green.miracle.service.MailService;
 
-
 @Controller
 @RequiredArgsConstructor
 public class MailController {
